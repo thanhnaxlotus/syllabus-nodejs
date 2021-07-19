@@ -103,7 +103,8 @@
 ### Loop
 * [Vòng lặp for trong Javascript](https://freetuts.net/vong-lap-for-trong-javascript-270.html)
 
-> Take loop and show output!
+`EXERCISE`: 
+> Dùng for hiển thị đầu ra bằng console.log
 ```
 var domains = [
     'freetuts.net',
@@ -113,7 +114,8 @@ var domains = [
 
 * [Vòng lặp while/do while trong JS](https://freetuts.net/vong-lap-while-do-while-trong-javascript-271.html)
 
-> What is output with the code below?
+`EXERCISE`: 
+> Đầu ra của đoạn code bên dưới là gì?
 ```
 while (i < 10) {
   console.log(`The number is ${i}`)
@@ -123,7 +125,8 @@ while (i < 10) {
 
 * [Break/Continue trong Javascript](https://freetuts.net/lenh-break-continue-trong-javascript-382.html)
 
-> What is output with the code below?
+`EXERCISE`: 
+> Đầu ra của đoạn code bên dưới là gì?
 ```
 for (var i = 0; i < 10; i++){
     console.log(i);
@@ -141,9 +144,6 @@ for (var i = 0; i < 10; i++){
 * [Xử lý ngày tháng trong Javascript](https://freetuts.net/ham-xu-ly-ngay-thang-date-trong-javascript-400.html)
 * [Typeof trong Javascript](https://freetuts.net/ham-typeof-trong-javascript-398.html)
 
-#### Xem Thêm
-[Basic JavaScript](https://freetuts.net/javascript-la-gi-viet-ung-dung-javascript-dau-tien-263.html)
-
 ## Part 2: Giới thiệu và cài đặt môi trường
 
 * [Cài đặt NodeJS trên Windows](https://phoenixnap.com/kb/install-node-js-npm-on-windows)
@@ -151,6 +151,12 @@ for (var i = 0; i < 10; i++){
 * [Cài đặt NodeJS trên MacOS](https://changelog.com/posts/install-node-js-with-homebrew-on-os-x)
 
 ## Part 3: Làm việc với NodeJS
+* [Package `node-persist` - Local Storage trên Server](https://freetuts.net/node-persist-local-storage-tren-server-589.html)
+
+> Để lưu trữ dữ liệu tạm thời thì trong Javascript HTML5 có khái niệm `LocalStorage` và `SessionStorage`, còn trong PHP thì có khái niệm session. Vậy trong NodeJS có cách nào để lưu trữ dữ liệu tạm thời hay không? Có đấy các bạn, chúng ta sẽ sử dụng module `node-persist` để lưu trữ dữ liệu tạm thời trên Server (không lưu trong hệ quản trị CSDL mà lưu file và bộ nhớ).
+
+`EXERCISE`: 
+> Xây dựng 1 mini app CRUD quản lý học sinh hoặc sinh viên biểu diễn dưới dạng Class và sử dụng `node-persist` để lưu trữ dữ liệu.
 
 * Node module, module.export và require
 * Sử dụng NPM để quản lý package và module trong NodeJS
@@ -160,15 +166,35 @@ for (var i = 0; i < 10; i++){
 * Tạo webserver cơ bản với HTTP module   
 * Tạo Webservice API trả về JSON với HTTP module
 
-## Part 4: Làm việc với ExpressJS Framework
+## Part 4: Server
 
-* Cài đặt ExpressJS, xây dựng cấu trúc thư mục cho dự án0
-* ExpressJS route
-* Cài đặt một số middleware cần thiết: body-passer, session
-* Tích hợp Template Engine EJS với ExpressJS
-* Cấu hình Static folder JS, CSS, IMAGE
+* [Callback trong NodeJS](https://freetuts.net/callback-trong-nodejs-2184.html)
+* [Events trong NodeJS](https://freetuts.net/events-trong-nodejs-2186.html)
+* [Buffer trong NodeJS](https://freetuts.net/buffer-trong-nodejs-2194.html)
+* [Streams trong NodeJS](https://freetuts.net/streams-trong-nodejs-2202.html)
+* [HTTP Web Server trong Nodejs](https://freetuts.net/khoi-tao-http-web-server-trong-nodejs-2214.html)
+* [NodeJS Server đơn giản](https://freetuts.net/xay-dung-nodejs-server-don-gian-666.html)
+* [writeHead + setHeader NodeJS](https://freetuts.net/ham-writehead-va-setheader-trong-nodejs-671.html)
+* [process.env trong Nodejs](https://freetuts.net/process-env-nodejs-2228.html)
+* [Upload files trong Nodejs](https://freetuts.net/upload-files-trong-nodejs-2223.html)
+* [Xử lý CORS trong NodeJS](https://freetuts.net/cors-la-gi-xu-ly-cors-trong-nodejs-2730.html)
 
-## Part 5: Xây dựng BLOG cá nhân
+## Part 5: Mongo
+
+* MongoDB trong NodeJS
+* Kết nối với MongoDB
+* Mongoose trong NodeJS
+* Schemas trong Mongoose
+* SchemaTypes trong Mongoose
+* Models trong Mongoose
+* Documents trong Mongoose
+* Subdocuments trong Mongooose
+* CRUD trong Mongoose
+* Validation trong Mongoose
+* Middleware trong Mongoose
+* Populate trong Mongoose
+
+## Part 6: Xây dựng BLOG cá nhân
 
 * Xây dựng giao diện trang chủ Blog
 * Route và Logic lấy dữ liệu cho trang chủ
