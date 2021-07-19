@@ -70,7 +70,7 @@
 * setTimeout và setInterval trong JS
 
 ```
-  1. setTimeout
+  * setTimeout
   setTimeout(function(){
       alert("Chào mừng bạn đến với freetuts.net");
   }, 3000);
@@ -79,7 +79,7 @@
   };
   setTimeout(do_alert, 3000);
 
-  1. clearTimeout
+  * clearTimeout
   // hành động
   var action = setTimeout(function(){
       // something
@@ -88,12 +88,12 @@
   // hủy hành động
   clearTimeout(action);
 
-  1. setInterval
+  * setInterval
   setInterval(function(){
       alert("Chào mừng bạn đến với freetuts.net");
   }, 3000);
 
-  1. clearInterval
+  * clearInterval
   var interval_obj = setInterval(function(){
       alert("Chào mừng bạn đến với freetuts.net");
       clearInterval(interval_obj);
@@ -102,8 +102,33 @@
 ```
 ### Loop
 * [Vòng lặp for trong Javascript](https://freetuts.net/vong-lap-for-trong-javascript-270.html)
+
+> Take loop and show output!
+```
+var domains = [
+    'freetuts.net',
+    'qa.freetuts.net'
+];
+```
+
 * [Vòng lặp while/do while trong JS](https://freetuts.net/vong-lap-while-do-while-trong-javascript-271.html)
+
+> What is output with the code below?
+```
+while (i < 10) {
+  console.log(`The number is ${i}`)
+  i++;
+}
+```
+
 * [Break/Continue trong Javascript](https://freetuts.net/lenh-break-continue-trong-javascript-382.html)
+
+> What is output with the code below?
+```
+for (var i = 0; i < 10; i++){
+    console.log(i);
+}
+```
 
 ### Data Types
 * [String trong Javascript](https://freetuts.net/chuoi-string-trong-javascript-392.html)
@@ -124,7 +149,6 @@
 * [Cài đặt NodeJS trên Windows](https://phoenixnap.com/kb/install-node-js-npm-on-windows)
 * [Cài đặt NodeJS trên Linux - Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
 * [Cài đặt NodeJS trên MacOS](https://changelog.com/posts/install-node-js-with-homebrew-on-os-x)
-* Viết ứng dụng Helloworld với NodeJS
 
 ## Part 3: Làm việc với NodeJS
 
