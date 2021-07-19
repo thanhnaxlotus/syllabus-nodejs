@@ -103,7 +103,7 @@
 ### Loop
 * [Vòng lặp for trong Javascript](https://freetuts.net/vong-lap-for-trong-javascript-270.html)
 
-`EXERCISE`: 
+`EXERCISE:` 
 > Dùng for hiển thị đầu ra bằng console.log
 ```
 var domains = [
@@ -114,7 +114,7 @@ var domains = [
 
 * [Vòng lặp while/do while trong JS](https://freetuts.net/vong-lap-while-do-while-trong-javascript-271.html)
 
-`EXERCISE`: 
+`EXERCISE:` 
 > Đầu ra của đoạn code bên dưới là gì?
 ```
 while (i < 10) {
@@ -125,7 +125,7 @@ while (i < 10) {
 
 * [Break/Continue trong Javascript](https://freetuts.net/lenh-break-continue-trong-javascript-382.html)
 
-`EXERCISE`: 
+`EXERCISE:` 
 > Đầu ra của đoạn code bên dưới là gì?
 ```
 for (var i = 0; i < 10; i++){
@@ -155,18 +155,20 @@ for (var i = 0; i < 10; i++){
 
 > Để lưu trữ dữ liệu tạm thời thì trong Javascript HTML5 có khái niệm `LocalStorage` và `SessionStorage`, còn trong PHP thì có khái niệm session. Vậy trong NodeJS có cách nào để lưu trữ dữ liệu tạm thời hay không? Có đấy các bạn, chúng ta sẽ sử dụng module `node-persist` để lưu trữ dữ liệu tạm thời trên Server (không lưu trong hệ quản trị CSDL mà lưu file và bộ nhớ).
 
-`EXERCISE`: 
+`EXERCISE:`
 > Xây dựng 1 mini app CRUD quản lý học sinh hoặc sinh viên biểu diễn dưới dạng Class và sử dụng `node-persist` để lưu trữ dữ liệu.
 
-* Node module, module.export và require
-* Sử dụng NPM để quản lý package và module trong NodeJS
-* File System và làm việc với file trong NodeJS
-* Asynchronous và Callback function trong NodeJS
-* Asynchronous và cách dùng Promise trong NodeJS
-* Tạo webserver cơ bản với HTTP module   
-* Tạo Webservice API trả về JSON với HTTP module
+* [Node module, module.export và require](https://viblo.asia/p/nodejs-require-exports-and-moduleexports-djeZ18PQKWz)
+* [Asynchronous và Callback function trong NodeJS](https://viblo.asia/p/tim-hieu-ve-vong-lap-callback-promise-va-asyncawait-trong-javascript-Do754ekXKM6)
+* [Asynchronous Promise vs Async/Await trong NodeJS](https://ehkoo.com/bai-viet/tat-tan-tat-ve-promise-va-async-await)
 
-## Part 4: Server
+## Part 4: MODULE
+
+* [Module Path trong NodeJS](https://freetuts.net/module-path-trong-nodejs-672.html)
+* [Module URL trong NodeJS](https://freetuts.net/module-url-trong-nodejs-673.html)
+* [Module FS trong NodeJS](https://freetuts.net/module-fs-trong-nodejs-674.html)
+
+## Part 5: Server
 
 * [Callback trong NodeJS](https://freetuts.net/callback-trong-nodejs-2184.html)
 * [Events trong NodeJS](https://freetuts.net/events-trong-nodejs-2186.html)
@@ -179,24 +181,37 @@ for (var i = 0; i < 10; i++){
 * [Upload files trong Nodejs](https://freetuts.net/upload-files-trong-nodejs-2223.html)
 * [Xử lý CORS trong NodeJS](https://freetuts.net/cors-la-gi-xu-ly-cors-trong-nodejs-2730.html)
 
-## Part 5: Mongo
+## Part 6: Mongo
 
-* MongoDB trong NodeJS
-* Kết nối với MongoDB
-* Mongoose trong NodeJS
-* Schemas trong Mongoose
-* SchemaTypes trong Mongoose
-* Models trong Mongoose
-* Documents trong Mongoose
-* Subdocuments trong Mongooose
-* CRUD trong Mongoose
-* Validation trong Mongoose
-* Middleware trong Mongoose
-* Populate trong Mongoose
+* [MongoDB trong NodeJS](https://freetuts.net/gioi-thieu-mongodb-trong-nodejs-2294.html)
+* [Kết nối với MongoDB](https://freetuts.net/ket-noi-voi-mongodb-trong-nodejs-2296.html)
+* [Mongoose trong NodeJS](https://freetuts.net/mongoose-trong-nodejs-2307.html)
+* [Schemas trong Mongoose](https://freetuts.net/schemas-trong-mongoose-2308.html)
+* [SchemaTypes trong Mongoose](https://freetuts.net/schematypes-trong-mongoose-2315.html)
+* [Models trong Mongoose](https://freetuts.net/models-trong-mongoose-2316.html)
+* [Documents trong Mongoose](https://freetuts.net/documents-trong-mongoose-2317.html)
+* [Subdocuments trong Mongooose](https://freetuts.net/subdocuments-trong-mongooose-2319.html)
+* [CRUD trong Mongoose](https://freetuts.net/create-read-update-delete-trong-mongoose-2321.html)
+* [Validation trong Mongoose](https://freetuts.net/validation-trong-mongoose-2322.html)
+* [Middleware trong Mongoose](https://freetuts.net/middleware-trong-mongoose-2323.html)
+* [Populate trong Mongoose](https://freetuts.net/populate-trong-mongoose-2332.html)
 
-## Part 6: Xây dựng BLOG cá nhân
+## Part 7: Xây dựng BLOG cá nhân
+
+`SUGGESTION:`
+1. Clone base project được gắn link ở trên
+2. Chạy nó lên và cài template engine bạn muốn sử dụng. Vd: [ejs](https://ejs.co/), [handlebarsjs](https://handlebarsjs.com/), ...
+
+`REQUIREMENT:`
 
 * Xây dựng giao diện trang chủ Blog
 * Route và Logic lấy dữ liệu cho trang chủ
 * Xây dựng trang chi tiết bài viết
 * Xây dựng trang About cho Blog
+
+## Part 8: Xây dựng 1 trang web bán hàng bằng nodejs
+
+`REQUIREMENT:`
+
+* Site quản trị
+* Site bán hàng
