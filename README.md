@@ -52,54 +52,54 @@
 
 * Biến toàn cục và cục bộ trong JS
 
-  ```
-    // Biến toàn cục
-    var comment = "Nội dung comment trước khi thay đổi";
-    // Hàm có sử dụng biến toàn cục
-    function add_comment()
-    {
-        comment = "Nội dung comment đa bị thay đổi";
-        alert(comment);
-    }
-    // Gọi fuction comment
-    add_comment();
-    // In biến toàn cục
-    alert(comment);
-  ```
+```
+  // Biến toàn cục
+  var comment = "Nội dung comment trước khi thay đổi";
+  // Hàm có sử dụng biến toàn cục
+  function add_comment()
+  {
+      comment = "Nội dung comment đa bị thay đổi";
+      alert(comment);
+  }
+  // Gọi fuction comment
+  add_comment();
+  // In biến toàn cục
+  alert(comment);
+```
 
 * setTimeout và setInterval trong JS
+
+```
+  1. setTimeout
+  setTimeout(function(){
+      alert("Chào mừng bạn đến với freetuts.net");
+  }, 3000);
+  var do_alert = function(){
+      alert("Chào mừng bạn đến với freetuts.net");
+  };
+  setTimeout(do_alert, 3000);
+
+  1. clearTimeout
+  // hành động
+  var action = setTimeout(function(){
+      // something
+  }, 3000);
   
-  ```
-    1. setTimeout
-    setTimeout(function(){
-        alert("Chào mừng bạn đến với freetuts.net");
-    }, 3000);
-    var do_alert = function(){
-        alert("Chào mừng bạn đến với freetuts.net");
-    };
-    setTimeout(do_alert, 3000);
+  // hủy hành động
+  clearTimeout(action);
 
-    1. clearTimeout
-    // hành động
-    var action = setTimeout(function(){
-        // something
-    }, 3000);
-    
-    // hủy hành động
-    clearTimeout(action);
+  1. setInterval
+  setInterval(function(){
+      alert("Chào mừng bạn đến với freetuts.net");
+  }, 3000);
 
-    1. setInterval
-    setInterval(function(){
-        alert("Chào mừng bạn đến với freetuts.net");
-    }, 3000);
+  1. clearInterval
+  var interval_obj = setInterval(function(){
+      alert("Chào mừng bạn đến với freetuts.net");
+      clearInterval(interval_obj);
+  }, 3000);
 
-    1. clearInterval
-    var interval_obj = setInterval(function(){
-        alert("Chào mừng bạn đến với freetuts.net");
-        clearInterval(interval_obj);
-    }, 3000);
-
-  ```
+```
 ### Loop
 * [Vòng lặp for trong Javascript](https://freetuts.net/vong-lap-for-trong-javascript-270.html)
 * [Vòng lặp while/do while trong JS](https://freetuts.net/vong-lap-while-do-while-trong-javascript-271.html)
