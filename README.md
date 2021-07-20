@@ -198,6 +198,8 @@ for (var i = 0; i < 10; i++){
 
 ## Part 7: Xây dựng BLOG cá nhân
 
+* [BASE PROJECT](https://github.com/thanhnaxlotus/ltsxnode)
+
 `SUGGESTION:`
 1. Clone base project được gắn link ở trên
 2. Chạy nó lên và cài template engine bạn muốn sử dụng. Vd: [ejs](https://ejs.co/), [handlebarsjs](https://handlebarsjs.com/), ...
