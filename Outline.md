@@ -3,7 +3,7 @@
 ---
 
 ### WEEK 1:
-1. OOP
+#### 1. OOP
 
 - Understand OOP principles: 
 
@@ -14,7 +14,7 @@
 
 Output: Implement and talk detail about it for manager
 
-2. SOLID Principle
+#### 2. SOLID Principle
 
 - Single responsibility principle: each class just handle one work
 - Open / Close Principle: open for extending, close for modifying
@@ -24,7 +24,7 @@ Output: Implement and talk detail about it for manager
 
 Output: talk detail about it for manager
 
-3. TypeScript: Learning basic properties of TypeScript:
+#### 3. TypeScript: Learning basic properties of TypeScript:
 
 - Lession 1: Basic
   + [Types](https://www.tutorialspoint.com/typescript/typescript_types.htm)
@@ -48,7 +48,7 @@ Output: talk detail about it for manager
 
 ### WEEK 2
 
-4. Design Pattern
+#### 4. Design Pattern
 
 - IoC
 - DI
@@ -57,7 +57,7 @@ Output: talk detail about it for manager
 
 Output: Implement SOLID principles, DI, Builder, Factory pattern
 
-5. Nest JS
+#### 5. Nest JS
 
 - [Controllers](https://docs.nestjs.com/controllers)
 - [Providers](https://docs.nestjs.com/providers)
@@ -68,7 +68,7 @@ Output: Implement SOLID principles, DI, Builder, Factory pattern
 - [Guards](https://docs.nestjs.com/guards)
 - [Interceptors](https://docs.nestjs.com/interceptors)
 
-6. TypeORM
+#### 6. TypeORM
 - [Connection](https://typeorm.io/#/connection)
 - [Entity](https://typeorm.io/#/relations)
 - [Relations](https://typeorm.io/#/relations)
